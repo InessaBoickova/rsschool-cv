@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans JP', sans-serif;
+    
+}
+body{
+    background-color: #fff8e7
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+.wrapper{
+    background: linear-gradient(green, black);
+}
+.title {
+    background: #fff8e7; 
+    mix-blend-mode: screen;
+}
+
+.sidepanel {
+    z-index: 3;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 340px;
+    top: 230px;
+    left: 50px;
+}
+.sidepanel li{
+    list-style-type: none; 
+}
+.sidepanel ul {
+    margin-left: 0; 
+    padding-left: 0;
+}
+.sidepanel__divider{
+    width: 2px;
+    height: 90px;
+    background-color: #000000;
+}
+.sidepanel__text {
+    height: 150px;
+    width: 25px;
+}
+.sidepanel__text span {
+        display: block;
+        width: 131px;
+        transform: rotate(-90deg) translate(-35%, -260%);
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 21px;
+        color: #000000;
+}
+.promo{
+    padding: 65px 0 35px 0;
+}
+.promo .promo_wrapper{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center ;
+}
+.promo .promo_descr h2{
+    margin-top: 10px;
+}
+.promo .promo_subtitle{
+    font-size: 18px;
+    margin-left: 10px;
+}
+.information{
+    padding: 50px 0 ;
+}
+.information_descr{
+    margin: 20px 0 0 20px;
+    line-height: 24px;
+}
+.skils ul{
+    margin: 13px 30px 0 40px;
+}
+.skils ul li{
+    margin-top: 7px;
+}
+.code{
+    padding: 50px 0 50px 0;
+}
+.code h2 {
+    margin-bottom: 20px;
+}
+.code_sample{
+    margin-left: 20px;
+}
+.language{
+    padding: 30px 0;
+}
+.ml{
+    margin: 10px 0 0 20px;
+}
+.footer{
+    padding: 50px 0 ;
+}
+.footer .container {
+    display: flex;
+    justify-content:space-around;
+    align-items: center ;
+}
+.footer .footer_wrapper {
+    width: 100px;
+    text-align: center;
+}
+.footer .footer_wrapper .footer_icon{
+    width: 60px;
+    height: 60px;
+}
+.footer_year{
+    font-size: 15px;
+}
+
